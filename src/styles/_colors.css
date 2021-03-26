@@ -1,3 +1,11 @@
 :root {
   /* Define your variable colors here */
+  --color-primary: #558e7d;
+  --color-secondary: #bad299;
+  --color-dead: grey;
+  --color-unknown: red;
+  --color-background: hsla(162, 40%, 84%, 0.988);
+  --color-accent: #67b7a9;
+  --color-warning: #9f9768;
+  --header-footer-font-color: whitesmoke;
 }
