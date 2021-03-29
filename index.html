@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles/index.css" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <title>Rick and Morty Character App</title>
   </head>
-  <body>
-    <header>
-      <h1>Hello World</h1>
+  <body class= "grid-layout">
+    <header class="header">
+      <img class="header_logo" src="src/Daco_109903.png" alt="Ricky and Morty Logo">
+      <h1 class="header__title"> </h1>
+      <div class="header__search">
+      <select class="header__filter" name="status" id="status">
+        <option selected>All</option>
+        <option>Alive</option>
+        <option>Dead</option>
+        <option>Unknown</option>
+      </select>
+      <input type="search" class="header__search-form" placeholder="Character name"/> 
+    </div>
+      <button type="button" class="header__search-button">Go!</button>
     </header>
-    <div id="app"></div>
+    <main class="content">
+    </main>
+    <footer class="footer">Made with love and coffee by Shari Nielsen</footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
